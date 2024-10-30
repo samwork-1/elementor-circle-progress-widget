@@ -1,0 +1,20 @@
+.circle-progress-container {
+    display: inline-block;
+    position: relative;
+}
+
+.circle-progress-svg {
+    transform: rotate(-90deg); /* Starts the progress from the top */
+}
+
+.circle-bg {
+    opacity: 0.3;
+}
+
+.circle-progress {
+    transition: stroke-dashoffset 0.6s ease; /* Smooth animation */
+}
+
+.progress-dot {
+    transition: transform 0.6s ease; /* Dot animation */
+}
